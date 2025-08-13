@@ -11,7 +11,7 @@ const page = () => {
     <div className="min-h-screen">
       <Header
         name="Popular Movies"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque alias modi ipsum labore exercitationem delectus esse rem assumenda repudiandae cumque."
+        description="Watch popular movies from all acros the world."
       />
       <div className="container mx-auto px-4">
         <PopularPage />

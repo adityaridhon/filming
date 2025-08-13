@@ -34,3 +34,11 @@ export const getTopRatedMovie = async () => {
 
   return response.data.results;
 };
+
+export const getMoviedetail = async (movie_id) => {
+  const response = await axios.get(
+    `${base_url}/movie/${movie_id}?api_key=${api_key}`
+  );
+
+  return response.data;
+};

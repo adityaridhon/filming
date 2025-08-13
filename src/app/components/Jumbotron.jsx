@@ -26,7 +26,7 @@ const Jumbotron = () => {
               onClick={() =>
                 movieRef.current.scrollIntoView({ behavior: "smooth" })
               }
-              className="group flex justify-center items-center mx-auto bg-blue-700 max-w-sm hover:bg-blue-900 text-white font-semibold py-2 px-5 rounded-full transition-colors duration-300 text-lg cursor-pointer"
+              className="group flex justify-center items-center mx-auto bg-blue-700 w-56 hover:bg-blue-900 text-white font-semibold py-2 px-5 rounded-full transition-colors duration-300 text-lg cursor-pointer"
             >
               Get Started Today
               <FaArrowRight className="ml-2 transform group-hover:translate-x-1 transition-transform duration-300" />
